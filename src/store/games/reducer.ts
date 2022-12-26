@@ -10,8 +10,8 @@ export const gamesStore = createSlice({
   name: 'games',
   initialState,
   reducers: {},
-  extraReducers: (builder) => {},
+  // extraReducers: (builder) => {},
 });
 
-export const {} = gamesStore.actions;
+// export const {} = gamesStore.actions;
 export default gamesStore.reducer;

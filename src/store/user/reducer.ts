@@ -10,8 +10,8 @@ export const userStore = createSlice({
   name: 'user',
   initialState,
   reducers: {},
-  extraReducers: (builder) => {},
+  // extraReducers: (builder) => {},
 });
 
-export const {} = userStore.actions;
+// export const {} = userStore.actions;
 export default userStore.reducer;
